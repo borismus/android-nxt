@@ -1,0 +1,31 @@
+struct command {
+    int motor;
+    int angle;
+    int power;
+}
+
+struct command parseCommand(string in) {
+    command cmd;
+    string 
+    int lastIndex = 0;
+    for (int i = 0; i < strlen(in); i++) {
+        if (in[i] == ' ') {
+            
+        }
+    }
+    cmd.motor = 
+}
+
+task main() {
+    string in, out;
+    while (true) {
+        if (ReceiveMessage(0, true, in) == NO_ERR) {
+            if (strcmp()) {
+                
+            }
+            out = StrCat("Hello ", in);
+            TextOut(0, LCD_LINE1, out, true);
+            SendMessage(10, out);
+        }
+    }
+}
