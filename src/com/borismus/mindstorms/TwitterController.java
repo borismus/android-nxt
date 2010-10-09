@@ -31,7 +31,7 @@ public class TwitterController {
 
 	// Twitter setup: account to listen for @replies
 	final String twitterUser = "mindstorms";
-	final String twitterPassword = "fire04";
+	final String twitterPassword = "SECRET";
 	Date lastCommandDate;
 	
 	public TwitterController() {
